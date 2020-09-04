@@ -7,16 +7,27 @@ import './Contact.css';
 
 export default function Contact() {
 
+  const [mailSent, setMailSent] = useState(false);
+
+
+  function handleMail(mailSent) {
+    return (mailSent ? "sent" : "submitButton")
+  }
+
+
+
   function sendEmail(e) {
-  const  {REACT_APP_USER,REACT_APP_SERVICE,REACT_APP_TEMPLATE} =process.env;
+    const { REACT_APP_USER, REACT_APP_SERVICE, REACT_APP_TEMPLATE } = process.env;
     e.preventDefault();
-    
+
     emailjs.sendForm(REACT_APP_SERVICE, REACT_APP_TEMPLATE, e.target, REACT_APP_USER)
       .then((result) => {
         console.log(result.text);
       }, (error) => {
         console.log(error.text);
       });
+    setMailSent(true);
+    console.log((value.email))
   }
 
 
@@ -83,9 +94,10 @@ export default function Contact() {
           <br />
 
           <div>
-            <input className="submitButton"
-            type="submit" 
-            value="" />
+            <input className={handleMail(mailSent)}
+              type="submit"
+              value=""
+              title="Envoyer" />
           </div>
         </form>
 
