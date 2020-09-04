@@ -10,7 +10,7 @@ export default function Contact() {
   function sendEmail(e) {
   const  {REACT_APP_USER,REACT_APP_SERVICE,REACT_APP_TEMPLATE} =process.env;
     e.preventDefault();
-    console.log(REACT_APP_SERVICE)
+    
     emailjs.sendForm(REACT_APP_SERVICE, REACT_APP_TEMPLATE, e.target, REACT_APP_USER)
       .then((result) => {
         console.log(result.text);
@@ -83,7 +83,9 @@ export default function Contact() {
           <br />
 
           <div>
-            <input type="submit" value="Send" />
+            <input className="submitButton"
+            type="submit" 
+            value="Send" />
           </div>
         </form>
 
