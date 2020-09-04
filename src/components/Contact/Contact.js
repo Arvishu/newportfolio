@@ -27,7 +27,7 @@ export default function Contact() {
         console.log(error.text);
       });
     setMailSent(true);
-    console.log((value.email))
+    
   }
 
 
