@@ -1,0 +1,17 @@
+.designContainer{
+    
+    height:90vh;
+        display: flex; 
+      flex-direction: column; 
+      justify-content: center; 
+      
+   
+}
+.designStyle{
+    display: flex; 
+      flex-direction: column; 
+      justify-content: center; 
+      
+    height: 100%;
+    background-color: rgba(128, 255, 0, 0.75);
+}

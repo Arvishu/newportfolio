@@ -1,0 +1,17 @@
+.aboutContainer {
+
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+.aboutStyle {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(0, 0, 255, 0.75);
+}

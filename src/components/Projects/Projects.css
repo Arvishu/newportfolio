@@ -1,0 +1,50 @@
+.projectsContainer {
+
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+.projectsStyle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(50vh, 1fr);
+    margin: 10px 10px;
+}
+
+.oneProject {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    grid-column: 1 / 2;
+    grid-row: 1;
+    background-color: rgba(184, 135, 11, 0.75);
+}
+
+.twoProject {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    grid-column: 2 / 3;
+    grid-row: 1;
+    background-color: rgb(11, 184, 25, 0.75);
+}
+
+.threeProject {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    grid-column: 3 / 4;
+    grid-row: 1;
+    background-color: rgb(11, 43, 184, 0.75);
+}

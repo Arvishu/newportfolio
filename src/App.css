@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
+.App {
+    position: absolute;
+  text-align: center; 
+  background-image: url("./ressources/plexusgif.gif");
+    background-size: cover;
+  font-family: 'Montserrat', sans-serif;
+  flex-direction: column;
+  justify-content: center;
+
+}
