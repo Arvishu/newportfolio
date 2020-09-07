@@ -1,9 +1,9 @@
 .contactContainer {
-  height: 90vh;
+  height: 80vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 0px auto;
+  
   font-family: 'Bitter', serif;
   
 
