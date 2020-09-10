@@ -34,6 +34,10 @@
 
 /* Style the front side (fallback if image is missing) */
 .flip-card-front {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
   background-color: rgba(7, 22, 160, 0.20);
   color: black;
 }
@@ -54,9 +58,7 @@
   transform: rotateY(180deg);
 }
 
-.imgPosition {
-  margin: auto;
-}
+
 
 @keyframes pulse {
   0% {

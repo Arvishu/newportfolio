@@ -10,7 +10,7 @@ export default function Home() {
 
        <div className="homeContainer">
             <div className='homeStyle'>
-              
+              <h1>blo</h1>
             </div>
        </div>
     )

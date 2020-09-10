@@ -1,3 +1,5 @@
+
+
 .navbarStyle {
     margin: auto;
     width: 100vw;
@@ -13,7 +15,7 @@
     grid-auto-rows: minmax(auto, auto);
     flex-direction: column;
     justify-content: center;
-
+position:fixed;
 }
 
 .navLinkStyle {
