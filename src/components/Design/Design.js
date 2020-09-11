@@ -1,12 +1,11 @@
 import React, { useState } from 'react';
 
-import Gallery from './../Gallery/Gallery.js'
+import Gallery from './../Gallery/Gallery.js';
 
-import jaguarData from '../../Data/jaguarData.js'
-import toucanData from '../../Data/toucanData.js'
-
-import glaceData from '../../Data/glaceData.js'
-
+import jaguarData from '../../Data/jaguarData.js';
+import toucanData from '../../Data/toucanData.js';
+import glaceData from '../../Data/glaceData.js';
+import animData from '../../Data/animData.js';
 import './Design.css';
 
 export default function Design() {
@@ -22,7 +21,7 @@ export default function Design() {
                 <Gallery dataGallery={jaguarData} />
                 <Gallery dataGallery={toucanData} />
                 <Gallery dataGallery={glaceData} />
-                <Gallery dataGallery={glaceData} />
+                <Gallery dataGallery={animData} />
 
 
 
