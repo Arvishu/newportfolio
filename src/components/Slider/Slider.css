@@ -37,14 +37,14 @@
     color: white;
     font-weight: bold;
     font-size: 18px;
-    background-color: teal;
+    background-color: rgba(0, 128, 128, 0.80);
 
     user-select: none;
 }
 
 a.prev:hover,
 a.next:hover {
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.80);
 }
 
 
