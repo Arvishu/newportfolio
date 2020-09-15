@@ -8,19 +8,14 @@ export default function Slider({ slides }) {
   const { length } = slides;
 
   const goToNext = () => {
-    setCurrent(current+ 1 );
-    if (current === length -1){
-      setCurrent(0)
-    }
+  setCurrent(current === length - 1 ? 0 : current + 1);
   }
+  
 
   const goToPrev = () => {
-    setCurrent(current- 1 );
-    if (current === 0){
-      setCurrent(length -1)
-    }
+    setCurrent(current === 0 ? length -1 : current - 1);
   }
-
+  
 
   useEffect(() => {
     const timeout = setTimeout(() => {
