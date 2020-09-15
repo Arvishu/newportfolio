@@ -35,6 +35,8 @@
     display: none;
   }
   .close {
+    height:4vw;
+    width:4vw;
     position: absolute;
     top: 15px;
     right: 35px;
@@ -51,5 +53,5 @@
   .close:focus {
     color: #bbb;
     text-decoration: none;
-    cursor: pointer;
+    cursor:url(./../../ressources/pointer.svg),pointer;
   }

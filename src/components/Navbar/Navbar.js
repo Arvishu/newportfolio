@@ -2,6 +2,7 @@ import React from 'react';
 import { Route, NavLink, Switch } from 'react-router-dom';
 
 import './Navbar.css';
+import hugo_logo from './../../ressources/hugo_logo2.svg'
 
 import Home from '../Home/Home.js';
 import Projects from '../Projects/Projects.js';
@@ -14,7 +15,11 @@ export default function Navbar() {
         <div className='navbarContainer'>
             <div className='navbarStyle'>
 
-                <NavLink className='navLinkStyle' activeClassName="selected" to='/home'>Home</NavLink>
+                <NavLink className='navLinkStyle' activeClassName="selected" to='/home'>
+                    <img src={hugo_logo} alt="Hugo Arvis production"
+                    height="40px" width="40px"
+                    title="Hugo Arvis Production"/>
+                </NavLink>
                 <div></div>
 
                 <NavLink className='navLinkStyle' activeClassName="selected" to='/projets'>Projets</NavLink>
