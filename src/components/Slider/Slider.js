@@ -7,12 +7,12 @@ export default function Slider({ slides }) {
 
   const { length } = slides;
 
-  const goToNext = () => {
+  function goToNext  ()  {
   setCurrent(current === length - 1 ? 0 : current + 1);
   }
   
 
-  const goToPrev = () => {
+  function goToPrev  () {
     setCurrent(current === 0 ? length -1 : current - 1);
   }
   
@@ -23,7 +23,14 @@ export default function Slider({ slides }) {
     }, 5000);
 
     return () => clearTimeout(timeout);
-  }, [current]);
+  });
+  useEffect(() => {
+    const timeout = setTimeout(() => {
+      goToPrev();
+    }, 5000);
+
+    return () => clearTimeout(timeout);
+  });
 
 
 
@@ -43,11 +50,11 @@ export default function Slider({ slides }) {
           key={slide.title}
           aria-hidden={i !== current}>
 
-          <a className="prev" onClick={goToPrev}>&#10094;</a>
-          <a className="next" onClick={goToNext}>&#10095;</a>
+          <button className="prev" onClick={goToPrev}>&#10094;</button>
+          <button className="next" onClick={goToNext}>&#10095;</button>
 
           <div > {i === current && (
-            <img className="image" src={slide.image} alt={`Image for ${slide.title}`} />
+            <img className="image" src={slide.image} alt={`${slide.title}`} />
           )}
             <div className="centered">
               <h1>{slide.title}</h1>
