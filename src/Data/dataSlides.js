@@ -19,6 +19,7 @@ export default [
     {id:4,
         title: "Web Design",
         subtitle: "Conception graphique",
+        subsubtitle:"Logo, animation, cartes de visite...",
         image: "https://picsum.photos/id/60/1288/685"
     },
     

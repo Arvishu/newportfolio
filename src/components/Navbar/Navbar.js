@@ -23,8 +23,8 @@ export default function Navbar() {
                 <div></div>
 
                 <NavLink className='navLinkStyle' activeClassName="selected" to='/projets'>Projets</NavLink>
-                <NavLink className='navLinkStyle' activeClassName="selected" to='/design'>Design</NavLink>
-                <NavLink className='navLinkStyle' activeClassName="selected" to='/about'>About</NavLink>
+                <NavLink className='navLinkStyle' activeClassName="selected" to='/design'>Dessins</NavLink>
+                <NavLink className='navLinkStyle' activeClassName="selected" to='/about'>A propos</NavLink>
                 <div></div>
 
                 <NavLink className='navLinkStyle' activeClassName="selected" to='/contact'>Contact</NavLink>

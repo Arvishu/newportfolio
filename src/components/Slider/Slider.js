@@ -64,6 +64,7 @@ export default function Slider({ slides }) {
          image={slide.image}
          title={slide.title}
          subtitle={slide.subtitle}
+         subsubtitle={slide.subsubtitle}
          />
 
           </div>

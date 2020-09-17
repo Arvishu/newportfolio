@@ -5,7 +5,7 @@ import './Slide.css'
 
 
 export default function Slide(props) {
-    const { name, title, subtitle, image, id } = props
+    const { name, title, subtitle,subsubtitle, image, id } = props
 
     function typing () {
         return(<Typical
@@ -30,6 +30,7 @@ export default function Slide(props) {
                 <p>{name}</p>
                 {typing()}
                 <h2>{subtitle}</h2>
+                <h3>{subsubtitle}</h3>
             </div>
         </div>
 

@@ -2,6 +2,7 @@
     position: relative;
     height: 80vh;
 
+
 }
 
 
@@ -61,16 +62,31 @@ a.next:hover {
     opacity: 0;
     transition: 3 ease-in;
 }
+
 .slide p,
 .slide h1,
-.slide h2 {
-    color: #fff;
-    text-shadow: 5px 5px 5px #000;
+.slide h2,
+.slide h3 {
+
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 3px rgb(0, 9, 133);
+
 
 }
-.slide h1{font-size: 12vh;}
-.slide h2{font-size: 8vh;}
-.slide p{font-size: 8vh;}
+
+.slide h1 {
+    font-size: 5vw;
+}
+
+.slide h2 {
+    font-size: 4vw;
+}
+
+.slide p {
+    font-size: 4vw;
+    font-weight: bold;
+
+}
 
 
 .slide.active {
@@ -78,4 +94,3 @@ a.next:hover {
     opacity: 1;
     transition: 2s ease-out;
 }
-

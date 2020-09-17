@@ -1,5 +1,3 @@
-
-
 .navbarStyle {
     margin: auto;
     width: 100vw;
@@ -15,7 +13,7 @@
     grid-auto-rows: minmax(auto, auto);
     flex-direction: column;
     justify-content: center;
-position:fixed;
+    position: fixed;
 }
 
 .navLinkStyle {
@@ -28,18 +26,13 @@ position:fixed;
     color: white;
     text-decoration: none;
     padding: 0vw 1vw;
-    
+
 
 }
 
-
-
-
-
-
 .selected {
-    font-size: 2.5vw;
-    font-weight:bold;
+    font-size: 2.2vw;
+    font-weight: bold;
     color: white;
     border: solid 5px #0309188f;
     border-radius: 25px;
@@ -108,17 +101,20 @@ position:fixed;
         transform-origin: 50% 0%;
         transform: perspective(800px) rotateX(0deg);
     }
+
     90% {
         opacity: 1;
         transform-origin: 50% 0%;
         transform: perspective(800px) rotateX(15deg);
     }
+
     100% {
         opacity: 1;
         transform-origin: 50% 0%;
         transform: perspective(800px) rotateX(0deg);
     }
 }
+
 @keyframes Boing {
     0% {
         opacity: 0;
@@ -173,11 +169,13 @@ position:fixed;
         transform-origin: 50% 0%;
         transform: perspective(800px) rotateX(0deg);
     }
+
     90% {
         opacity: 1;
         transform-origin: 50% 0%;
         transform: perspective(800px) rotateX(15deg);
     }
+
     100% {
         opacity: 1;
         transform-origin: 50% 0%;
@@ -240,11 +238,13 @@ position:fixed;
         transform-origin: 50% 0%;
         transform: perspective(800px) rotateX(0deg);
     }
+
     90% {
         opacity: 1;
         transform-origin: 50% 0%;
         transform: perspective(800px) rotateX(15deg);
     }
+
     100% {
         opacity: 1;
         transform-origin: 50% 0%;
@@ -309,11 +309,13 @@ position:fixed;
         transform-origin: 50% 0%;
         transform: perspective(800px) rotateX(0deg);
     }
+
     90% {
         opacity: 1;
         transform-origin: 50% 0%;
         transform: perspective(800px) rotateX(15deg);
     }
+
     100% {
         opacity: 1;
         transform-origin: 50% 0%;
