@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Slider from './../Slider/Slider.js'
-import defaultSlides from './../../Data/dataSlides.js';
+import dataSlides from './../../Data/dataSlides.js';
 import './Home.css';
 
 
@@ -11,7 +11,7 @@ export default function Home() {
 
        <div className="homeContainer">
          
-             <Slider slides={defaultSlides}/>
+             <Slider slides={dataSlides}/>
             
        </div>
     )

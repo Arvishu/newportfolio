@@ -1,11 +1,16 @@
 import React, { useState, useEffect } from 'react';
+
+import Slide from './../Slide/Slide.js'
+
 import './Slider.css'
+
 
 export default function Slider({ slides }) {
   // Create a current state indicating what's the current slide's index
   const [current, setCurrent] = useState(0);
-
+  
   const { length } = slides;
+  
 
   function goToNext  ()  {
   setCurrent(current === length - 1 ? 0 : current + 1);
@@ -39,7 +44,7 @@ export default function Slider({ slides }) {
   if (!Array.isArray(slides) || length <= 0) {
     return null;
   }
-  console.log(current)
+  
   return (
     <section className="slider">
 
@@ -47,23 +52,23 @@ export default function Slider({ slides }) {
 
       {slides.map((slide, i) => (
         <div className={i === current ? "slide active" : "slide"}
-          key={slide.title}
+          key={slide.id}
           aria-hidden={i !== current}>
 
           <button className="prev" onClick={goToPrev}>&#10094;</button>
           <button className="next" onClick={goToNext}>&#10095;</button>
 
-          <div > {i === current && (
-            <img className="image" src={slide.image} alt={`${slide.title}`} />
-          )}
-            <div className="centered">
-              <h1>{slide.title}</h1>
-              <h2>{slide.subtitle}</h2>
-            </div>
+         <Slide
+         id={current}
+         name={slide.name}
+         image={slide.image}
+         title={slide.title}
+         subtitle={slide.subtitle}
+         />
 
           </div>
 
-        </div>
+        
 
 
       ))}
