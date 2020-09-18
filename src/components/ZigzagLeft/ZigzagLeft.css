@@ -1,0 +1,31 @@
+.zigzagLeft {
+    position: relative;
+    display: grid;
+    grid-template-columns: 33vw 66vw;
+    grid-auto-rows: minmax(90vh, 1fr);
+    width: 100vw;
+}
+
+.twoblockZL,
+.oneblockZL {
+    position: relative;
+}
+
+.oneblockZL img {
+    height: 100%;
+    width: 33vw
+}
+
+.twoblockZL{
+    height: 100%;
+    width: 66vw
+}
+.recentered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.459);
+    border-radius:15px;
+    font-size: 1.5vw;
+}

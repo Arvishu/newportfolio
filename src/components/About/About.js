@@ -1,13 +1,17 @@
-import React, { useState } from 'react';
+import React from 'react';
+import Zigzag from'./../Zigzag/Zigzag.js'
 
 import './About.css';
+import dataZigzag from '../../Data/dataZigzag.js';
 
 export default function About() {
 
 
     return (
-        <div className="aboutContainer">
-            <div className='aboutStyle'>About Component</div>
-        </div>
+        <>
+            
+                <Zigzag  zCards = {dataZigzag}/>
+            
+        </>
     )
 }

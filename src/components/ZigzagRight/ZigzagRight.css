@@ -1,0 +1,33 @@
+.zigzagRight {
+    position: relative;
+    display: grid;
+    grid-template-columns: 66vw 33vw;
+    grid-auto-rows: minmax(90vh, 1fr);
+    width:100vw;
+}
+
+.twoblock,.oneblock{
+    position: relative;
+}
+
+.twoblock img {
+    height: 100%;
+    width: 66vw
+}
+
+ 
+
+.oneblock img {
+    height: 100%;
+    width: 33vw
+}
+
+.recentered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.459);
+    border-radius:15px;
+    font-size: 1.5vw;
+}

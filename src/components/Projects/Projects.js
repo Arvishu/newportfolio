@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import Project from './../Project/Project.js'
 import './Projects.css';
 import pokemon from'./../../ressources/pokemon55.svg';

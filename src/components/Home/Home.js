@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Slider from './../Slider/Slider.js'
 import dataSlides from './../../Data/dataSlides.js';
 import './Home.css';

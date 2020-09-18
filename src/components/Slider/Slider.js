@@ -52,7 +52,7 @@ export default function Slider({ slides }) {
 
       {slides.map((slide, i) => (
         <div className={i === current ? "slide active" : "slide"}
-          key={slide.id}
+          key={i}
           aria-hidden={i !== current}>
 
           <button className="prev" onClick={goToPrev}>&#10094;</button>
