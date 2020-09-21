@@ -12,20 +12,20 @@ export default function ZigzagLeft (props){
         <div className="zigzagLeft">
                
                <div className="oneblock">
-                <img className="imageZcardD" src={imageD} alt="thanks to PICSUM live long and prosper" />
+                <img className="imageZcardD" src={imageG} alt="thanks to PICSUM live long and prosper" />
                 <div >
                    <div className="recentered">
-                        <h1>{titleD}</h1>
-                        <p>{paragrapheD}</p>
+                        <h1>{titleG}</h1>
+                        <p>{paragrapheG}</p>
                    </div>
                 </div>
             </div>
 
                <div className="twoblock">
-                <img className="imageZcardG" src={imageG} alt="thanks to PICSUM live long and prosper" />
+                <img className="imageZcardG" src={imageD} alt="thanks to PICSUM live long and prosper" />
                 <div className="recentered">
-                    <h1>{titleG}</h1>
-                    <p>{paragrapheG}</p>
+                    <h1>{titleD}</h1>
+                    <p>{paragrapheD}</p>
                 </div>
       
             </div>

@@ -12,7 +12,7 @@ export default function Zigzag({zCards}){
        
 
        <div key= {i}>
-         {i%2===0?( <ZigzagLeft 
+         {i%2===0?( <ZigzagRight 
           id={zCard.id}
           titleG={zCard.titleG}
           titleD={zCard.titleD}
@@ -21,7 +21,7 @@ export default function Zigzag({zCards}){
           imageG={zCard.imageG}
           imageD={zCard.imageD}
           />
-         ):( <ZigzagRight 
+         ):( <ZigzagLeft
           id={zCard.id}
           titleG={zCard.titleG}
           titleD={zCard.titleD}

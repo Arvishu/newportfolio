@@ -1,8 +1,11 @@
+
+
 import React,{useState}from 'react'
 
-import './Picture.css'
+
 
 import Modal from './../Modal/Modal.js'
+
 
 export default function Picture (props){
     const{title,importation} = props
@@ -17,11 +20,11 @@ export default function Picture (props){
     function hideModal() {
         setShow(false);
     }
-
+   
     return(
         <div>
                 <div >
-                    <img className="imgStyle"
+                    <img className="imgStyle "
                         height="128px"
                         width="128px"
                         onClick={showModal}
