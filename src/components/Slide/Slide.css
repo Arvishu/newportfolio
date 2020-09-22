@@ -10,9 +10,9 @@
 
 .centered {
     border-radius: 25px;
-    background: #373b44a4;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #4286f4a4, #373b44a1);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #4286f463, #373b44a1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #373b44a4;  
+    background: -webkit-linear-gradient(to bottom, #4286f4a4, #373b44a1);  
+    background: linear-gradient(to bottom, #4286f463, #373b44a1); 
         width: 75%;
     position: absolute;
     top: 50%;

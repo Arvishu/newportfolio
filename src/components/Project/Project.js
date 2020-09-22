@@ -16,7 +16,7 @@ export default function Project(props) {
                 </div>
                 <div className="flip-card-back">
                     <h1>{title}</h1>
-                    <p>Architect & Engineer</p>
+                    
                     <div  >
                         <a  href={link} target="_blank" rel="noopener noreferrer">
                             <img className ={"button-glow"} 

@@ -1,8 +1,4 @@
-.imgStyle{
-  ackground: #373b44a4;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #4286f4a4, #373b44a1);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #4286f463, #373b44a1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    border-radius: 10px;
-    top: 5vh;
-position: relative;
-  }
+.imgModalBack{
+    border-radius: 25px;
+    background-color:rgba(0, 128, 128, 0.5) ;
+}

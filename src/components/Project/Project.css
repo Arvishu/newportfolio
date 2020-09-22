@@ -2,11 +2,10 @@
   background-color: transparent;
   width: 100%;
   height: 100%;
-  
   perspective: 1000px;
 }
 
-/* This container is needed to position the front and back side */
+
 .flip-card-inner {
   position: relative;
   width: 100%;
@@ -16,41 +15,33 @@
   transform-style: preserve-3d;
 }
 
-/* Do an horizontal flip when you move the mouse over the flip box container */
 .flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
 }
 
-/* Position the front and back side */
 .flip-card-front,
 .flip-card-back {
   position: absolute;
-  width: 100%;
+  width: 34vw;
   height: 100%;
   -webkit-backface-visibility: hidden;
-  /* Safari */
   backface-visibility: hidden;
 }
 
-/* Style the front side (fallback if image is missing) */
 .flip-card-front {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  
+
   background-color: rgba(7, 22, 160, 0.20);
   color: rgb(255, 255, 255);
   font-size: 2vw;
 }
 
-/* Style the back side */
 .flip-card-back {
   background: #04194d;
-  /* fallback for old browsers */
   background: -webkit-linear-gradient(to top, #4286f4, #04194d);
-  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to top, #4286f4, #04194d);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -80,7 +71,7 @@
 
 
 .button-glow {
-margin :auto;
+  margin: auto;
   height: 6vw;
   width: 6vw;
   display: flex;
