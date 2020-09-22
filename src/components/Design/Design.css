@@ -18,3 +18,11 @@
   grid-auto-rows: minmax(25vh, 1fr);
 
 }
+@media only screen and (min-width:321px) and (max-width:800px) {
+  .designStyle {
+   
+   
+    grid-template-columns: repeat(2, 1fr);
+  
+  }
+}

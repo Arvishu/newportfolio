@@ -1,7 +1,7 @@
 export default [
     {
         id: 1,
-        titleG: 'Développeur web passioné!',
+        titleG: 'Développeur web passionné!',
         titleD: '',
         paragrapheG: "Ma passion pour le développement web commence en 2017 et m'a demandé un changement radical de cursus afin de pouvoir pleinement l'exploiter. ",
         paragrapheD: "J'ai donc décidé de suivre une formation avec la Wild Code School en 2018. ",

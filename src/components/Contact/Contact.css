@@ -80,8 +80,7 @@ margin: 5px 5px;
   height:2.9vw;
   border-style:none;
   margin: 1vw;
-  font-family: 'Bitter', serif;
-  font-size:1.3vw;
+  
 
 
   -webkit-backface-visibility: visible;
@@ -168,3 +167,44 @@ margin: 5px 5px;
   }
 
 
+  @media only screen and (min-width:321px) and (max-width:800px) {
+  
+    .contactStyle {
+      width: 90vw;
+      font-size:3vw;
+    }
+    
+    .inputStyle {
+      width: 70vw;
+      border-radius: 10px;
+      font-size:3vw;
+    }
+    
+    .inputLastNameStyle {
+      margin-left:2vw;
+      width: 33vw;
+      font-size:3vw;
+    }
+    
+    .inputFirstNameStyle {
+    
+      width: 33vw;
+      font-size:3vw;
+    }
+    
+    .inputTextStyle {
+    
+      height: 28vw;
+      width: 70vw;
+     
+      font-size:3vw;
+     
+    }
+    .submitButton{
+      
+      width:14vw;
+      height:8.2vw;
+      border-style:none;
+     
+    }
+  }

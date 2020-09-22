@@ -31,3 +31,25 @@
     border-radius:15px;
     font-size: 1.5vw;
 }
+@media only screen and (min-width:321px) and (max-width:800px) {
+
+    .zigzagRight {
+        grid-template-columns: 1fr ;
+        grid-auto-rows: minmax(50vh, 1fr);
+    }
+    .twoblock img {
+        height: 100%;
+        width: 100vw
+    }
+    
+     
+    
+    .oneblock img {
+        height: 100%;
+        width: 100vw
+    }
+    .recentered {
+       
+        font-size: 5vw;
+}
+}

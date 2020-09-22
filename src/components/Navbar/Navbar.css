@@ -322,3 +322,22 @@
         transform: perspective(800px) rotateX(0deg);
     }
 }
+
+
+
+@media only screen and (min-width:321px) and (max-width:800px) {
+
+    .navLinkStyle {
+
+        height: auto;
+        font-size: 3vw;
+    
+    
+    }
+    
+    .selected {
+        font-size: 3.5vw;
+       
+
+    }
+}
